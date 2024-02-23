@@ -1,6 +1,26 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/SAIBA-45-Outline.ttf') format('truetype'); /* Font dosyasının yolunu doğru şekilde belirtin */
+
+}
+
+@font-face {
+    font-family: 'MyCustomFont1';
+    src: url('fonts/SAIBA-45.ttf') format('truetype'); /* Font dosyasının yolunu doğru şekilde belirtin */
+
+}
+
+
+
+
 body {
     background-image: url(cyberpunk.jpg);
 }
+
+body h1{
+    font-family: 'MyCustomFont', sans-serif; /* İndirdiğiniz fontu kullanın */
+}
+
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.8); /* Siyah arka plan, %50 opaklık */
@@ -17,6 +37,8 @@ body {
     background-size: 200% 200%; 
     animation: rainbow-text 5s linear infinite;
     font-weight: bold;
+
+
 }
 
 @keyframes rainbow-text {
