@@ -1,0 +1,68 @@
+body {
+    background-image: url(cyberpunk.jpg);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Siyah arka plan, %50 opaklık */
+    width: 700px;
+    left: 32%;
+    border-radius: 40px 40px 40px 40px;
+
+}
+.nav-item a {
+    margin-inline: 40px;
+    background: linear-gradient(to right, #475bcf, #bb79c4, #8d5e7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%; 
+    animation: rainbow-text 5s linear infinite;
+    font-weight: bold;
+}
+
+@keyframes rainbow-text {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.2); /* Siyah arka plan, %50 opaklık */
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+#left-top-col {
+    background-color: rgba(0, 0, 0, 0.4); /* Siyah arka plan, %50 opaklık */
+    height: 500px;
+    border-radius: 20px;
+}
+
+#right-top-col {
+    background-color: black;
+    height: 100px;
+}
+
+.col .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    width: 350%;
+    height: 100px;
+}
