@@ -83,16 +83,19 @@ body {
     border-radius: 20px;
 }
 
-#left-top-col {
-    background-color: rgba(0, 0, 0, 0.7); /* Siyah arka plan, %50 opaklık */
+#top-col {
+    background-color: rgba(0, 0, 0, 0.2); /* Siyah arka plan, %50 opaklık */
     height: 500px;
     border-radius: 20px;
 }
 
-#right-top-col {
-    background-color: black;
-    height: 100px;
+#bottom-col {
+    background-color: rgba(0, 0, 0, 0.7); /* Siyah arka plan, %50 opaklık */
+    border-radius: 20px;
 }
+
+
+
 
 .col .card {
     display: flex;
