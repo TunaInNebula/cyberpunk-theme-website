@@ -136,5 +136,14 @@ body {
 
 .row #col-alt {
     margin-top: 20px;
+    
 }
 
+
+
+#offcanvasexample {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6); 
+
+    
+}
