@@ -92,6 +92,12 @@ body {
 #bottom-col {
     background-color: rgba(0, 0, 0, 0.7); /* Siyah arka plan, %50 opaklık */
     border-radius: 20px;
+    font-family: 'MyCustomFont1', sans-serif; /* İndirdiğiniz fontu kullanın */
+}
+
+#bottom-col h1{
+    font-family: 'MyCustomFont1', sans-serif; /* İndirdiğiniz fontu kullanın */
+
 }
 
 
@@ -146,4 +152,27 @@ body {
     background-color: rgba(0, 0, 0, 0.6); 
 
     
+}
+
+.offcanvas {
+    border-radius: 40px;
+}
+
+
+.carousel {
+    display: flex;
+    width: 80%;
+    margin-left: 200px;
+
+}
+.carousel img {
+    height: 800px;
+}
+
+.carousel p {
+    color: #ffff;
+}
+
+.carousel h5 {
+    color: #ffff;
 }
